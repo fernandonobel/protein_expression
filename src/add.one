@@ -1,0 +1,11 @@
+function add(a, b)
+  """This function adds a and b and prints the result."""
+  result = a + b
+
+  print("The result is:")
+  print(result)
+end
+
+standalone
+  add(2, 3)
+end
